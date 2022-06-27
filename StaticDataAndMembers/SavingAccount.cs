@@ -8,5 +8,16 @@
         {
             currBalance = balance;
         }
+
+        public static double GetInterestRate()
+        {
+            return currInterestRate;
+        }
+
+        public static void SetInterestRate(double newRate)
+        {
+            currInterestRate = newRate;
+        }
+        
     }
 }
